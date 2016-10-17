@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "import sys, math; sys.stdout.write(str($1))" | python  && echo
