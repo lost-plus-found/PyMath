@@ -26,4 +26,7 @@ output:
 (standard_in) 1: syntax error
 ~ $ echo "4&5" | pymath 
 4
+~ $ echo " hex(int('12340', 16) + int('5678', 16))  " | pymath
+0x179b8
+
 ```
