@@ -2,4 +2,4 @@
 
 read I
 
-echo "import sys, math; sys.stdout.write(str($I))" | python  && echo
+echo "print $I" | python
